@@ -60,7 +60,7 @@ class AppActions:
     def tab_close():
         actions.user.vscode("workbench.action.closeActiveEditor")
 
-    def tab_next():
+    def tab_right():
         actions.user.vscode("workbench.action.nextEditorInGroup")
 
     def tab_previous():
